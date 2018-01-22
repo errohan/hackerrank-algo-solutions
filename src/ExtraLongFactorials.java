@@ -1,9 +1,14 @@
+import java.math.BigInteger;
 import java.util.*;
 
 public class ExtraLongFactorials {
 
     static void extraLongFactorials(int n) {
-
+        BigInteger num = new BigInteger("1");
+        for(int i = n; i>1;i--){
+            num = num.multiply(new BigInteger(String.valueOf(i)));
+        }
+        System.out.println(num);
     }
 
 
