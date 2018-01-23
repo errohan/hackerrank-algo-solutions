@@ -161,7 +161,44 @@ public class QueensAttack {
             count += columnQueen-1;
         }
         else {
-            count += columnObstacleRight
+            count += columnObstacleRight - columnQueen - 1;
         }
+
+        //PRINCIPAL DIAGONAL
+
+        //in top left direction
+        if(columnObstacleTopLeft == -1){
+            count += Math.min(n-rowQueen,columnQueen-1);
+        }
+        else {
+            count += rowObstacleTopLeft - rowQueen -1;
+        }
+
+        //in bottom right direction
+        if(columnObstacleBottomRight == -1){
+            count += Math.min(rowQueen-1,columnQueen-1);
+        }
+        else {
+            count += columnObstacleBottomRight  - columnQueen - 1;
+        }
+
+        //OTHER DIAGONAL
+
+        //top right direction
+        if(columnObstacleTopRight == -1){
+            count += Math.min(n-rowQueen,n-columnQueen);
+        }
+        else {
+            count += columnObstacleTopRight - columnQueen - 1;
+        }
+
+        //bottom left direction
+        if(columnObstacleBottomLeft == -1){
+            count += Math.min(rowQueen - 1 , n - columnQueen);
+        }
+        else {
+            count += columnQueen - columnObstacleBottomLeft - 1;
+        }
+        System.out.println(count);
     }
 }
