@@ -2,20 +2,13 @@ import java.util.*;
 
 public class CutTheSticks {
 
-    static List<Integer> cutTheSticks(List<Integer> arr) {
+    static List<Integer> cutTheSticks(Map<Integer,Integer> sticks,int n) {
         ArrayList<Integer> result = new ArrayList<>();
-        Collections.sort(arr);
-        int count;
-        int minIndex = 0;
-        int nextIndex = minIndex+1;
-        while (minIndex != arr.size()){
-            count = arr.size()-minIndex;
-            result.add(count);
-            while (nextIndex<arr.size() && arr.get(minIndex) == arr.get(nextIndex)){
-                nextIndex++;
-            }
-            minIndex = nextIndex;
-            nextIndex = minIndex+1;
+        ArrayList<Integer> stickSet = new ArrayList<>(sticks.keySet());
+        Collections.sort(stickSet);
+        for(int i = 0;i<stickSet.size();i++){
+            result.add(n);
+            n -= sticks.get(stickSet.get(i));
         }
         return result;
     }
@@ -24,15 +17,19 @@ public class CutTheSticks {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        ArrayList<Integer> arr = new ArrayList<>();
+        Map<Integer,Integer> sticks = new LinkedHashMap<>();
         for(int arr_i = 0; arr_i < n; arr_i++){
-            arr.add(in.nextInt());
+            int stick = in.nextInt();
+            if(sticks.containsKey(stick)){
+                sticks.put(stick,sticks.get(stick)+1);
+            }
+            else {
+                sticks.put(stick,1);
+            }
         }
-        cutTheSticks(arr).forEach(a->{
-            System.out.println(a);
+        cutTheSticks(sticks,n).forEach(l->{
+            System.out.println(l);
         });
-        System.out.println("");
-
 
         in.close();
     }
