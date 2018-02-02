@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 /*
   author  : rohan.gupta
@@ -6,10 +6,7 @@ import java.util.Arrays;
 */
 public class Test {
     public static void main(String[] args) {
-        String s = "rohangupta";
-        char []charArray = s.toCharArray();
-        Arrays.sort(charArray);
-        s = new String(charArray);
-        System.out.println(s);
+        String s = "Rohan";
+        System.out.print(s.toString());
     }
 }
