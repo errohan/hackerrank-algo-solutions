@@ -20,7 +20,7 @@ public class ElectronicsShop {
         if (kbd.get(0) + drive.get(0) <= limit) {
             Collections.reverse(kbd);
             for (int i = 0; i < keyboardLen; i++) {
-                if (kbd.get(i) + drive.get(count+1) <= limit) {
+                if (kbd.get(i) + drive.get(count + 1) <= limit) {
                     count++;
                     for (int j = count; j < driveLen; j++) {
                         if (kbd.get(i) + drive.get(j) <= limit && kbd.get(i) + drive.get(j) > max) {

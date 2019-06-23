@@ -28,9 +28,9 @@ public class GridSearch {
                 startIndexesOfSubPatterns.addAll(getSubstringIndexes(grid[gridRow], pattern[patternIndex]));
                 patternIndex++;
                 for (int i = patternIndex; i < patternSize && startIndexesOfSubPatterns.size() > 0; i++) {
-                    startIndexesOfSubPatterns.retainAll(getSubstringIndexes(grid[gridRow+i],pattern[i]));
+                    startIndexesOfSubPatterns.retainAll(getSubstringIndexes(grid[gridRow + i], pattern[i]));
                 }
-                if(startIndexesOfSubPatterns.size()>0){
+                if (startIndexesOfSubPatterns.size() > 0) {
                     return true;
                 }
             }
@@ -41,23 +41,22 @@ public class GridSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int testCases = sc.nextInt();
-        for(int i = 0;i<testCases;i++){
+        for (int i = 0; i < testCases; i++) {
             int gridRow = sc.nextInt();
             int gridCol = sc.nextInt();
             String grid[] = new String[gridRow];
-            for(int gridInput = 0;gridInput<gridRow;gridInput++){
-                grid[gridInput]=sc.next();
+            for (int gridInput = 0; gridInput < gridRow; gridInput++) {
+                grid[gridInput] = sc.next();
             }
-            int patternRow =sc.nextInt();
+            int patternRow = sc.nextInt();
             int patternCol = sc.nextInt();
             String pattern[] = new String[patternRow];
-            for(int patternInput = 0;patternInput<patternRow;patternInput++){
-                pattern[patternInput]=sc.next();
+            for (int patternInput = 0; patternInput < patternRow; patternInput++) {
+                pattern[patternInput] = sc.next();
             }
-            if(doesGridContainsPattern(grid,pattern,gridRow,patternRow)){
+            if (doesGridContainsPattern(grid, pattern, gridRow, patternRow)) {
                 System.out.println("YES");
-            }
-            else System.out.println("NO");
+            } else System.out.println("NO");
         }
     }
 }

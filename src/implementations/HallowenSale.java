@@ -15,9 +15,9 @@ public class HallowenSale {
         int a = initialCost;
         int d = -1 * decrementCost;
         int tn = minCost;
-        int n = (tn -a + d)/d;
-        int sn = n * (2*a + (n-1)*d)/2;
-        int nums = n + (sum - sn)/minCost;
+        int n = (tn - a + d) / d;
+        int sn = n * (2 * a + (n - 1) * d) / 2;
+        int nums = n + (sum - sn) / minCost;
         return nums;
     }
 
@@ -44,6 +44,6 @@ public class HallowenSale {
         bufferedWriter.close();
 
         scanner.close();*/
-        System.out.println(howManyGames(20,3,8,85));
+        System.out.println(howManyGames(20, 3, 8, 85));
     }
 }

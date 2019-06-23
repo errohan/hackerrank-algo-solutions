@@ -6,20 +6,20 @@ public class BeautifulDaysAtMovie {
 
     static int beautifulDays(int i, int j, int k) {
         int count = 0;
-        for(int x = i;x<=j;x++){
-            if(Math.abs(x-revNum(x))%k==0){
+        for (int x = i; x <= j; x++) {
+            if (Math.abs(x - revNum(x)) % k == 0) {
                 count++;
             }
         }
         return count;
     }
 
-    static int revNum(int i){
+    static int revNum(int i) {
         int temp = i;
         int revNum = 0;
-        while(temp>0){
-            revNum = (revNum * 10) + (temp%10);
-            temp = temp/10;
+        while (temp > 0) {
+            revNum = (revNum * 10) + (temp % 10);
+            temp = temp / 10;
         }
         return revNum;
     }

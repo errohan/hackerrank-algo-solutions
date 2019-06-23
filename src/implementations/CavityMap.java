@@ -24,7 +24,7 @@ public class CavityMap {
                     System.out.print(map[i][j]);
                 } else if (map[i][j] > map[i - 1][j] && map[i][j] > map[i + 1][j] && map[i][j] > map[i][j - 1] && map[i][j] > map[i][j + 1]) {
                     System.out.print("X");
-                }else System.out.print(map[i][j]);
+                } else System.out.print(map[i][j]);
             }
             System.out.print("\n");
         }

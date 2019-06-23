@@ -91,7 +91,7 @@ public class QueensAttack {
             else if (rowQueen + columnQueen == rowObstacle + columnObstacle) {
                 //Obstacle is on top left
                 if (rowObstacle > rowQueen && columnObstacle < columnQueen) {
-                    if(columnObstacleTopLeft == -1 || columnObstacle > columnObstacleTopLeft){
+                    if (columnObstacleTopLeft == -1 || columnObstacle > columnObstacleTopLeft) {
                         columnObstacleTopLeft = columnObstacle;
                         rowObstacleTopLeft = rowObstacle;
                     }
@@ -99,7 +99,7 @@ public class QueensAttack {
 
                 //Obstacle is on bottom right
                 else if (rowObstacle < rowQueen && columnObstacle > columnQueen) {
-                    if(columnObstacleBottomRight == -1 || columnObstacle < columnObstacleBottomRight){
+                    if (columnObstacleBottomRight == -1 || columnObstacle < columnObstacleBottomRight) {
                         columnObstacleBottomRight = columnObstacle;
                         rowObstacleBottomRight = rowObstacle;
                     }
@@ -107,17 +107,17 @@ public class QueensAttack {
             }
 
             //IF OBSTACLE IS ON OTHER DIAGONAL
-            else if(rowQueen - columnQueen == rowObstacle - columnObstacle){
+            else if (rowQueen - columnQueen == rowObstacle - columnObstacle) {
                 //on top right
-                if(rowQueen < rowObstacle && columnQueen < columnObstacle){
-                    if(columnObstacleTopRight == -1 || columnObstacle < columnObstacleTopRight){
+                if (rowQueen < rowObstacle && columnQueen < columnObstacle) {
+                    if (columnObstacleTopRight == -1 || columnObstacle < columnObstacleTopRight) {
                         columnObstacleTopRight = columnObstacle;
                         rowObstacleTopRight = rowObstacle;
                     }
                 }
                 //on bottom left
-                else if(rowQueen > rowObstacle && columnQueen > columnObstacle){
-                    if(columnObstacleBottomLeft == -1 || columnObstacle > columnObstacleBottomLeft){
+                else if (rowQueen > rowObstacle && columnQueen > columnObstacle) {
+                    if (columnObstacleBottomLeft == -1 || columnObstacle > columnObstacleBottomLeft) {
                         columnObstacleBottomLeft = columnObstacle;
                         rowObstacleBottomLeft = rowObstacle;
                     }
@@ -133,72 +133,64 @@ public class QueensAttack {
         //VERTICAL AXIS
 
         //In top direction
-        if(rowObstacleTop == -1){
-            count += n-rowQueen;
-        }
-        else {
-            count += rowObstacleTop - rowQueen -1;
+        if (rowObstacleTop == -1) {
+            count += n - rowQueen;
+        } else {
+            count += rowObstacleTop - rowQueen - 1;
         }
 
         //In bottom direction
-        if(rowObstacleBottom == -1){
-            count += rowQueen-1;
-        }
-        else {
-            count += rowQueen - rowObstacleBottom -1;
+        if (rowObstacleBottom == -1) {
+            count += rowQueen - 1;
+        } else {
+            count += rowQueen - rowObstacleBottom - 1;
         }
 
         //HORIZONTAL AXIS
 
         //In left direction
-        if(rowObstacleLeft == -1){
+        if (rowObstacleLeft == -1) {
             count += n - columnQueen;
-        }
-        else {
-            count += columnQueen - columnObstacleLeft -1;
+        } else {
+            count += columnQueen - columnObstacleLeft - 1;
         }
 
         //In right direction
-        if(rowObstacleRight == -1){
-            count += columnQueen-1;
-        }
-        else {
+        if (rowObstacleRight == -1) {
+            count += columnQueen - 1;
+        } else {
             count += columnObstacleRight - columnQueen - 1;
         }
 
         //PRINCIPAL DIAGONAL
 
         //in top left direction
-        if(columnObstacleTopLeft == -1){
-            count += Math.min(n-rowQueen,columnQueen-1);
-        }
-        else {
-            count += rowObstacleTopLeft - rowQueen -1;
+        if (columnObstacleTopLeft == -1) {
+            count += Math.min(n - rowQueen, columnQueen - 1);
+        } else {
+            count += rowObstacleTopLeft - rowQueen - 1;
         }
 
         //in bottom right direction
-        if(columnObstacleBottomRight == -1){
-            count += Math.min(rowQueen-1,columnQueen-1);
-        }
-        else {
-            count += columnObstacleBottomRight  - columnQueen - 1;
+        if (columnObstacleBottomRight == -1) {
+            count += Math.min(rowQueen - 1, columnQueen - 1);
+        } else {
+            count += columnObstacleBottomRight - columnQueen - 1;
         }
 
         //OTHER DIAGONAL
 
         //top right direction
-        if(columnObstacleTopRight == -1){
-            count += Math.min(n-rowQueen,n-columnQueen);
-        }
-        else {
+        if (columnObstacleTopRight == -1) {
+            count += Math.min(n - rowQueen, n - columnQueen);
+        } else {
             count += columnObstacleTopRight - columnQueen - 1;
         }
 
         //bottom left direction
-        if(columnObstacleBottomLeft == -1){
-            count += Math.min(rowQueen - 1 , n - columnQueen);
-        }
-        else {
+        if (columnObstacleBottomLeft == -1) {
+            count += Math.min(rowQueen - 1, n - columnQueen);
+        } else {
             count += columnQueen - columnObstacleBottomLeft - 1;
         }
         System.out.println(count);

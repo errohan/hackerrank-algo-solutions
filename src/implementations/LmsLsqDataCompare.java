@@ -10,9 +10,9 @@ import java.util.Map;
 import java.util.Set;
 
 /*
-* author  : rohan.gupta
-* created : 9/1/18
-*/
+ * author  : rohan.gupta
+ * created : 9/1/18
+ */
 public class LmsLsqDataCompare {
     public static void main(String[] args) throws IOException {
         int count = 0;
@@ -36,7 +36,7 @@ public class LmsLsqDataCompare {
                 String pid = line.split(",")[0];
                 String state = line.split(",")[1];
                 if (state.length() > 3 && pid.length() == 36) {
-                    if (lmsMap.get(pid) == null || (!lmsMap.get(pid).toString().equals(state) && !state.equals("Closed") &&!state.equals("Dormant"))) {
+                    if (lmsMap.get(pid) == null || (!lmsMap.get(pid).toString().equals(state) && !state.equals("Closed") && !state.equals("Dormant"))) {
                         pids.add(pid);
                     }
                 }
@@ -44,8 +44,8 @@ public class LmsLsqDataCompare {
         }
         lsqBr.close();
         System.out.println("\n" + pids.size());
-        pids.forEach(p->{
-            System.out.print("\"" + p + "\"," );
+        pids.forEach(p -> {
+            System.out.print("\"" + p + "\",");
         });
     }
 }

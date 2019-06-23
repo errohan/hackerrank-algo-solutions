@@ -2,9 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e04a07-8392-460d-8f87-9ba9df56a108" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/implementations/SurfaceAreaII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/SherlockAndAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/TwoString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/AbsolutePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/AbsolutePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/AcmIcpcTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/AcmIcpcTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/AngryProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/AngryProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/AppendAndDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/AppendAndDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/BeautifulDaysAtMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BeautifulDaysAtMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/BeautifulTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BeautifulTriplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/BiggerIsGreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BiggerIsGreater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/BombermanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BombermanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/CatAndAMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/CatAndAMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/CavityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/CavityMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ChocolateFeast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ChocolateFeast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/CircularArrayRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/CircularArrayRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ClimbingLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ClimbingLeaderBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/CountValley.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/CountValley.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/CutTheSticks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/CutTheSticks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/DrawingBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/DrawingBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ElectronicsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ElectronicsShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/EmasSuperComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/EmasSuperComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/EqualizeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/EqualizeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ExtraLongFactorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ExtraLongFactorials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/FairRations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/FairRations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/FileDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/FileDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/FlatLandSpaceStations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/FlatLandSpaceStations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/GridSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/GridSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/GridSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/GridSearchII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/HallowenSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/HallowenSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/HallowenSaleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/HallowenSaleII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/HappyLadyBugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/HappyLadyBugs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/implementations/HappyLadybugsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/HappyLadybugsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/JumpingOnClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/JumpingOnClouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/KaprekarNumberProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/KaprekarNumberProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/KarpeskarNumberProblemII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/KarpeskarNumberProblemII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/LibraryFine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/LibraryFine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/LisaWorkBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/LisaWorkBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/LmsLsqDataCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/LmsLsqDataCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/MagicSquareProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/MagicSquareProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/MansaAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/MansaAndStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/MigratoryBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/MigratoryBirds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/MinimumDistances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/MinimumDistances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/NonDivisibleSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/NonDivisibleSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/PickingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/PickingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/QueensAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/QueensAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/QueensAttackII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/QueensAttackII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/RepeatedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/SaveThePrisoner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SaveThePrisoner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/SequenceEqn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SequenceEqn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ServiceLane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ServiceLane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/SherlockAndSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SherlockAndSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SockMerchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/StrangeCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/StrangeCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/SurfaceArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SurfaceArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/SurfaceAreaII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SurfaceAreaII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/TaumAndBday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/TaumAndBday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ThunderCloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ThunderCloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/TimeInWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/TimeInWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/UtopianTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/UtopianTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/implementations/ViralAdvertising.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/ViralAdvertising.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/SuperReducedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/SuperReducedStrings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,27 +82,98 @@
               <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1256#1257#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/implementations/SurfaceArea.java">
+        <entry file="file://$PROJECT_DIR$/src/hash/RansomNote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hash/TwoString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hash/SherlockAndAnagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4896">
+              <caret line="315" column="19" selection-start-line="315" selection-start-column="19" selection-end-line="315" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/implementations/SurfaceAreaII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/implementations/BombermanGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#XY#0;class#BombermanGame#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/implementations/EmasSuperComputer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47787">
+              <caret line="2896" selection-start-line="2896" selection-end-line="2897" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23443">
+              <caret line="1441" selection-start-line="1441" selection-end-line="1441" />
             </state>
           </provider>
         </entry>
@@ -59,6 +190,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>9505</find>
+      <find>printGrid()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,15 +205,20 @@
         <option value="$PROJECT_DIR$/src/implementations/KarpeskarNumberProblemII.java" />
         <option value="$PROJECT_DIR$/src/implementations/HallowenSaleII.java" />
         <option value="$PROJECT_DIR$/src/implementations/GridSearchII.java" />
-        <option value="$PROJECT_DIR$/src/implementations/HappyLadybugsII.java" />
         <option value="$PROJECT_DIR$/src/implementations/SurfacereaII.java" />
         <option value="$PROJECT_DIR$/src/implementations/SurfaceAreaII.java" />
+        <option value="$PROJECT_DIR$/src/implementations/BombermanGame.java" />
+        <option value="$PROJECT_DIR$/src/implementations/EmasSuperComputer.java" />
+        <option value="$PROJECT_DIR$/src/implementations/HappyLadybugsII.java" />
+        <option value="$PROJECT_DIR$/src/hash/RansomNote.java" />
+        <option value="$PROJECT_DIR$/src/hash/TwoString.java" />
+        <option value="$PROJECT_DIR$/src/hash/SherlockAndAnagram.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="51" />
+    <option name="x" value="75" />
+    <option name="y" value="64" />
     <option name="width" value="1281" />
     <option name="height" value="704" />
   </component>
@@ -107,13 +244,7 @@
               <item name="hackerrank-algo-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrank-algo-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerrank-algo-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerrank-algo-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -125,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555754658597" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558191745723" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -144,9 +275,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SurfaceAreaII">
-    <configuration name="GridSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementations.GridSearchII" />
+  <component name="RunManager" selected="Application.TwoString">
+    <configuration name="BombermanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementations.BombermanGame" />
       <module name="HackerRank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -159,8 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HallowenSaleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementations.HallowenSaleII" />
+    <configuration name="EmasSuperComputer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementations.EmasSuperComputer" />
       <module name="HackerRank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -173,27 +304,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyLadybugsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementations.HappyLadybugsII" />
+    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.RansomNote" />
       <module name="HackerRank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KarpeskarNumberProblemII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementations.KarpeskarNumberProblemII" />
-      <module name="HackerRank" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementations.*" />
+          <option name="PATTERN" value="hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,6 +325,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.TwoString" />
+      <module name="HackerRank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,19 +370,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GridSearchII" />
-      <item itemvalue="Application.HallowenSaleII" />
-      <item itemvalue="Application.HappyLadybugsII" />
-      <item itemvalue="Application.KarpeskarNumberProblemII" />
       <item itemvalue="Application.SurfaceAreaII" />
+      <item itemvalue="Application.BombermanGame" />
+      <item itemvalue="Application.EmasSuperComputer" />
+      <item itemvalue="Application.RansomNote" />
+      <item itemvalue="Application.TwoString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoString" />
+        <item itemvalue="Application.RansomNote" />
+        <item itemvalue="Application.EmasSuperComputer" />
         <item itemvalue="Application.SurfaceAreaII" />
-        <item itemvalue="Application.HappyLadybugsII" />
-        <item itemvalue="Application.GridSearchII" />
-        <item itemvalue="Application.HallowenSaleII" />
-        <item itemvalue="Application.KarpeskarNumberProblemII" />
+        <item itemvalue="Application.BombermanGame" />
       </list>
     </recent_temporary>
   </component>
@@ -274,18 +405,21 @@
       <workItem from="1555555102193" duration="2510000" />
       <workItem from="1555578841282" duration="524000" />
       <workItem from="1555605365572" duration="3624000" />
-      <workItem from="1555753831047" duration="704000" />
+      <workItem from="1555753831047" duration="19759000" />
+      <workItem from="1555906479809" duration="673000" />
+      <workItem from="1558164673597" duration="9864000" />
+      <workItem from="1558327647241" duration="921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33229000" />
+    <option name="totallyTimeSpent" value="63742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1303" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.2848051" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.2991249" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.26173428" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,7 +429,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28387097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,7 +437,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32580644" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3392283" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
@@ -320,7 +454,7 @@
       <window_info anchor="right" id="Maven Projects" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.27525854" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967742" weight="0.29435164" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.26173428" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,7 +464,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57741934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,7 +472,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32580644" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3392283" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
@@ -409,11 +543,68 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementations/BombermanGame.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementations/BombermanGame.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementations/BombermanGame.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementations/BombermanGame.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementations/BombermanGame.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/implementations/EmasSuperComputer.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hash/RansomNote.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>grid[cx]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bombsMap.get(0).clear();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bombsMap.get(0).clear()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>map.get('_')</expression-string>
         <language-id>JAVA</language-id>
@@ -557,29 +748,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementations/SurfaceArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/implementations/HappyLadybugsII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/implementations/SurfaceArea.java">
+    <entry file="file://$PROJECT_DIR$/src/hash/RansomNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hash/TwoString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="315" column="19" selection-start-line="315" selection-start-column="19" selection-end-line="315" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementations/SurfaceAreaII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementations/BombermanGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#XY#0;class#BombermanGame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementations/EmasSuperComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47787">
+          <caret line="2896" selection-start-line="2896" selection-end-line="2897" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23443">
+          <caret line="1441" selection-start-line="1441" selection-end-line="1441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hash/SherlockAndAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

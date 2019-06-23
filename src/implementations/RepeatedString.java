@@ -5,19 +5,20 @@ import java.util.*;
 public class RepeatedString {
 
     static long repeatedString(String s, long n) {
-        long completeOccurence = n/s.length();
-        int partialOccurence = (int) (n%s.length());
-        Counter c = countOccurence(s,partialOccurence);
-        return (completeOccurence*c.completeCount)+(c.partialCount);
+        long completeOccurence = n / s.length();
+        int partialOccurence = (int) (n % s.length());
+        Counter c = countOccurence(s, partialOccurence);
+        return (completeOccurence * c.completeCount) + (c.partialCount);
     }
-    static Counter countOccurence(String s ,  int partialLength){
+
+    static Counter countOccurence(String s, int partialLength) {
         Counter c = new Counter();
         long count = 0l;
-        for(int i = 0;i<s.length();i++){
-            if(s.charAt(i)=='a'){
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == 'a') {
                 count++;
             }
-            if(i==partialLength-1){
+            if (i == partialLength - 1) {
                 c.partialCount = count;
             }
         }
@@ -35,7 +36,7 @@ public class RepeatedString {
     }
 }
 
-class Counter{
+class Counter {
     long completeCount;
     long partialCount;
 }

@@ -7,9 +7,9 @@ public class ViralAdvertising {
     static int viralAdvertising(int n) {
         int numOfPeople = 5;
         int countsReached = 0;
-        for(int i = 1; i<=n;i++){
-            countsReached += numOfPeople/2;
-            numOfPeople = (numOfPeople/2)*3;
+        for (int i = 1; i <= n; i++) {
+            countsReached += numOfPeople / 2;
+            numOfPeople = (numOfPeople / 2) * 3;
         }
         return countsReached;
     }

@@ -8,20 +8,18 @@ public class CountValley {
         int level = 0;
         int valley = 0;
         int i;
-        for(i=0;i<n;i++){
-            if(s.charAt(i) == 'U'){
+        for (i = 0; i < n; i++) {
+            if (s.charAt(i) == 'U') {
                 level++;
-            }
-            else {
+            } else {
                 level--;
             }
-            if(level<0){
-                while(level!=0 && i<n-1){
+            if (level < 0) {
+                while (level != 0 && i < n - 1) {
                     i++;
-                    if(s.charAt(i) == 'U'){
+                    if (s.charAt(i) == 'U') {
                         level++;
-                    }
-                    else {
+                    } else {
                         level--;
                     }
                 }

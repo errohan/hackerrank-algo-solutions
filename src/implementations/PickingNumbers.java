@@ -31,7 +31,7 @@ public class PickingNumbers {
         }
         Collections.sort(numsCountsList);
         Collections.reverse(numsCountsList);
-        if(highCount  < numsCountsList.get(0)){
+        if (highCount < numsCountsList.get(0)) {
             highCount = numsCountsList.get(0);
         }
         return highCount;
